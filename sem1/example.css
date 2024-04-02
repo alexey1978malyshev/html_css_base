@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Nanum, "Times New Roman", sans-serif;
+  src: url(fonts/NanumGothicCoding-Bold.ttf);
+}
+
+:root {
+  --name_book: darkred;
+}
+
+.navigation {
+  display: flex;
+  gap: 40px;
+  margin-left: 15px;
+}
+
+.navigation__link {
+  color: rgb(58, 30, 161);
+}
+
+.navigation__link:hover {
+  color: rgb(66, 187, 181);
+}
+
+.navigation__link_red:hover {
+  color: var(--name_book);
+}

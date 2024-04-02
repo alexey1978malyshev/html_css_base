@@ -1,0 +1,91 @@
+body {
+  margin: 40px;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: darkblue;
+}
+h2 {
+  color: darkcyan;
+}
+img {
+  border-radius: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu {
+  color: cornflowerblue;
+  font-size: 19px;
+  line-height: 20px;
+}
+
+.title {
+  color: #222;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.title2 {
+  color: rgb(36, 19, 14);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 80px;
+}
+
+.text {
+  color: rgb(48, 30, 116);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.field {
+  width: 200px;
+  height: 30px;
+  outline: none;
+  border: 3px solid #695c5c;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 30px;
+  margin: 10px 0px;
+}
+
+.button {
+  width: 103px;
+  height: 30px;
+  outline: none;
+  border: 3px solid #186d32;
+  border-radius: 7px;
+  font-size: 10px;
+  line-height: 30px;
+  background-color: #5bad7465;
+}
+
+@font-face {
+  font-family: Nanum, "Times New Roman", sans-serif;
+  src: url(fonts/NanumGothicCoding-Bold.ttf);
+}
+
+:root {
+  --name_book: darkred;
+}
+
+.navigation {
+  display: flex;
+  gap: 40px;
+  margin-left: 15px;
+}
+
+.navigation__link {
+  color: rgb(58, 30, 161);
+}
+
+.navigation__link:hover {
+  color: rgb(66, 187, 181);
+}
